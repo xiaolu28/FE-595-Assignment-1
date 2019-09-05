@@ -19,3 +19,9 @@ plt.legend()
 plt.xticks((-np.pi*2,-np.pi*3/2,-np.pi,-np.pi/2, 0,
             np.pi/2,np.pi,np.pi*3/2,np.pi*2),
             ('-2π','-3π/2','-π','-π/2','0','π/2','π','3π/2','2π'))
+
+### plot tan(x)
+plt.plot(t, np.tan(t), label = "Tan")
+### create title and legend for graph
+plt.title("Graph of tan")
+plt.legend()
